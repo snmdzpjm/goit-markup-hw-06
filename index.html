@@ -407,92 +407,86 @@
     </main>
 
     <footer class="footer">
-      <div class="container footer">
-        <div class="address-footer">
-          <a class="logo second link" lang="en" href="./index.html"
-            >Web<span class="logo-white">Studio</span>
-          </a>
-          <address class="address">
-            <ul class="address-list list">
-              <li class="address-list-item">
-                <a
-                  href="https://goo.gl/maps/pXZyXXm4pR66iuyq8"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="address-location-link link"
-                  >г. Киев, пр-т Леси Украинки, 26
+      <div class="container">
+        <div class="footer-container">
+          <div class="address-footer">
+            <a class="logo second link" lang="en" href="./index.html"
+              >Web<span class="logo-white">Studio</span>
+            </a>
+            <address class="adress-container">
+              <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
+              <ul class="footer-contacts-list list">
+                <li class="footer-contacts-list-item">
+                  <a
+                    class="footer-contacts-list-link link"
+                    href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="footer-contacts-list-item">
+                  <a
+                    class="footer-contacts-list-link link"
+                    href="tel:+380991111111"
+                    >+38 099 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="social-links-footer">
+            <b class="join">Присоединяйтесь</b>
+            <ul class="social-list list">
+              <li class="social-list-item">
+                <a href="" class="social-list-link link">
+                  <svg class="social-list-icon">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg>
                 </a>
               </li>
-              <li class="address-list-item">
-                <a
-                  class="adress-contact-link link"
-                  lang="en"
-                  href="mailto:info@example.com"
-                  >info@example.com
+              <li class="social-list-item">
+                <a href="" class="social-list-link link">
+                  <svg class="social-list-icon">
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
                 </a>
               </li>
-              <li class="contact-list-item">
-                <a class="adress-contact-link link" href="tel:+380961111111"
-                  >+38 096 111 11 11
+              <li class="social-list-item">
+                <a href="" class="social-list-link link">
+                  <svg class="social-list-icon">
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="" class="social-list-link link link">
+                  <svg class="social-list-icon">
+                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                  </svg>
                 </a>
               </li>
             </ul>
-          </address>
-        </div>
-        <div class="social-links-footer">
-          <b class="join">Присоединяйтесь</b>
-          <ul class="social-list list">
-            <li class="social-list-item">
-              <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
-                  <use href="./images/sprite.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
-                  <use href="./images/sprite.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
-                  <use href="./images/sprite.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
-                  <use href="./images/sprite.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-email">
-          <b class="footer-form-title">Подпишитесь на рассылку</b>
-          <form class="footer-form">
-            <label>
+          </div>
+          <div class="footer-email">
+            <b class="join">Подпишитесь на рассылку</b>
+            <form class="footer-form">
               <input
-                class="footer-form-input"
                 type="email"
                 name="user-email"
+                class="footer-form-input"
                 placeholder="E-mail"
               />
-            </label>
-            <button class="footer-form-btn" type="submit">
-              <span>Подписаться</span>
-              <svg class="footer-form-icon" width="24px" height="24px">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </form>
+              <button type="submit" class="footer-form-btn">
+                Подписаться
+                <svg class="footer-form-icon">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <buttton type="button" class="modal-close-btn" data-modal-close>
